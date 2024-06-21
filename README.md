@@ -10,8 +10,12 @@ A minimalist skin (with browser-native ui widgets) rounds out the theme.
 
 Still to do:
 
-1/. Complete css for mobile browsers
+1/. Continue simplification of ui widgets
 
-2/. Rationalise icon colours so css filters aren't required
+2/. Complete css for mobile browsers
 
-3/. Final testing, including Dark-Mode
+3/. Rationalise icon colours so css filters aren't required
+
+4/. Final testing
+
+![allgrid admin Dark Mode](allgrid-admin-dark-mode.webp)
