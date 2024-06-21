@@ -11,5 +11,7 @@ A minimalist skin (with browser-native ui widgets) rounds out the theme.
 Still to do:
 
 1/. Complete css for mobile browsers
+
 2/. Rationalise icon colours so css filters aren't required
+
 3/. Final testing, including Dark-Mode
