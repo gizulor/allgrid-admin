@@ -1,0 +1,25 @@
+{
+  "title": "allgrid",
+  "txp-type": "textpattern-admin-theme",
+  "version": "1beta",
+  "description": "Textpattern CMS allgrid admin theme.",
+  "author": "Gary Venter",
+  "author_uri": "https://all-sorts.biz",
+  "screenshots" : [
+    {
+      "src": "allgrid-admin.webp",
+      "sizes": "3516x2181",
+      "type": "image/webp",
+      "form_factor": "wide",
+      "label": "allgrid admin theme for Textpattern"
+    },
+    {
+      "src": "allgrid-admin-dark-mode.webp",
+      "sizes": "3516x2151",
+      "type": "image/webp",
+      "form_factor": "wide",
+      "label": "allgrid admin theme for Textpattern, Dark Mode"
+    }
+  ]
+
+}
