@@ -3,6 +3,8 @@ all-grid admin-side theme for Textpattern CMS
 You are free to modify this theme, reuse code herein, and distribute all its
 supporting files as long as licences are respected (see below).
 
+<img src="allgrid-admin.webp" />
+
 
 == Installation instructions ==
 
