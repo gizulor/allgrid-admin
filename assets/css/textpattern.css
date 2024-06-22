@@ -7447,10 +7447,14 @@ body.darkmode .ui-tabs .ui-tabs-nav li:hover {
    ========================================================================== */
 @media (max-width: 61.25em) {
   /**
-   * Adjust right/left padding of body.
-   */
+    * Adjust right/left padding of body.
+    */
   body {
     padding: 4em 3em 0;
+    font-size: 14px;
+  }
+  table {
+    font-size: 12px;
   }
   .setup,
   .login {
@@ -7461,11 +7465,11 @@ body.darkmode .ui-tabs .ui-tabs-nav li:hover {
     left: 3em;
   }
   /**
-   * Grid column cell changes at 1st breakpoint downwards.
-   *
-   * Cells for 4 column layout become 2 column layout.
-   * Cells for 4 column span variations become 1 column layout.
-   */
+    * Grid column cell changes at 1st breakpoint downwards.
+    *
+    * Cells for 4 column layout become 2 column layout.
+    * Cells for 4 column span variations become 1 column layout.
+    */
   .txp-layout-4col {
     grid-column: span 6;
   }
@@ -7475,14 +7479,14 @@ body.darkmode .ui-tabs .ui-tabs-nav li:hover {
     grid-column: span 12;
   }
   /**
-   * Adjust right/left padding of header area.
-   */
+    * Adjust right/left padding of header area.
+    */
   .txp-header {
     padding: 0 3em;
   }
   /**
-   * Smaller version of Textpattern logo.
-   */
+    * Smaller version of Textpattern logo.
+    */
   .txp-header h1 {
     width: 1.75em;
   }
@@ -7490,16 +7494,16 @@ body.darkmode .ui-tabs .ui-tabs-nav li:hover {
     width: 1.75em;
   }
   /**
-   * 'View site' link.
-   *
-   * Example HTML:
-   *
-   * <p class="txp-view-site">
-   *     <a>
-   *         <span class="txp-view-site-name">My site</span>
-   *     </a>
-   * </p>
-   */
+    * 'View site' link.
+    *
+    * Example HTML:
+    *
+    * <p class="txp-view-site">
+    *     <a>
+    *         <span class="txp-view-site-name">My site</span>
+    *     </a>
+    * </p>
+    */
   .txp-view-site {
     margin: 0.0625em 0.375em 0;
     padding: 0;
@@ -7518,8 +7522,8 @@ body.darkmode .ui-tabs .ui-tabs-nav li:hover {
     background-size: 13em 2em;
   }
   /**
-   * Search widget at top of lists.
-   */
+    * Search widget at top of lists.
+    */
   .txp-search {
     flex-wrap: wrap;
     justify-content: flex-start;
@@ -7530,8 +7534,8 @@ body.darkmode .ui-tabs .ui-tabs-nav li:hover {
     float: none;
   }
   /**
-   * Reposition search clearer.
-   */
+    * Reposition search clearer.
+    */
   .txp-search-clear {
     flex: 1 0 auto;
     width: 100%;
@@ -7539,23 +7543,20 @@ body.darkmode .ui-tabs .ui-tabs-nav li:hover {
     text-align: start;
   }
   /**
-   * Reset Form panel 'name' and 'type' fields to blocks.
-   */
+    * Reset Form panel 'name' and 'type' fields to blocks.
+    */
   #page-form .name,
   #page-form .type {
     display: block;
     margin: 0 0 1em;
   }
   /**
-   * Bottom-affixed save button region.
-   */
+    * Bottom-affixed save button region.
+    */
   .txp-save-zone {
     display: flex;
     position: fixed;
     box-sizing: border-box;
-    flex-direction: row-reverse;
-    align-items: flex-start;
-    justify-content: space-between;
     height: 4.5rem;
     inset: auto 0 0;
     margin: 0;
@@ -7578,15 +7579,9 @@ body.darkmode .ui-tabs .ui-tabs-nav li:hover {
   #page-css {
     padding-bottom: 4.5rem;
   }
-  #page-article #messagepane,
-  #page-page #messagepane,
-  #page-form #messagepane,
-  #page-css #messagepane {
-    bottom: 4.5rem;
-  }
   /**
-   * Restrict width of multiselect to avoid layout breakage.
-   */
+    * Restrict width of multiselect to avoid layout breakage.
+    */
   select[size],
   select[multiple] {
     max-width: 22em;
@@ -7600,8 +7595,8 @@ body.darkmode .ui-tabs .ui-tabs-nav li:hover {
     white-space: nowrap;
   }
   /**
-   * Reduce tab character length in code editor/text areas.
-   */
+    * Reduce tab character length in code editor/text areas.
+    */
   textarea,
   pre {
     -moz-tab-size: 2;
@@ -7614,11 +7609,11 @@ body.darkmode .ui-tabs .ui-tabs-nav li:hover {
    ========================================================================== */
 @media (max-width: 47em) {
   /**
-   * Prevent zoom upon form element focus.
-   */
+    * Prevent zoom upon form element focus.
+    */
   /**
-   * Adjust right/left padding of body.
-   */
+    * Adjust right/left padding of body.
+    */
   body {
     padding: 4em 1em 0;
   }
@@ -7635,19 +7630,19 @@ body.darkmode .ui-tabs .ui-tabs-nav li:hover {
     padding: 1px 0 0;
   }
   /**
-   * Adjust right/left padding of header area.
-   */
+    * Adjust right/left padding of header area.
+    */
   .txp-header {
     height: 2.625em;
     padding: 0 1em;
   }
   /**
-   * Grid column cell changes at 2nd breakpoint downwards.
-   *
-   * Cells for 2 column layout become 1 column layout.
-   * Cells for 3 column layout become 1 column layout.
-   * Cells for 4 column layout become 1 column layout.
-   */
+    * Grid column cell changes at 2nd breakpoint downwards.
+    *
+    * Cells for 2 column layout become 1 column layout.
+    * Cells for 3 column layout become 1 column layout.
+    * Cells for 4 column layout become 1 column layout.
+    */
   .txp-layout {
     gap: 0;
   }
@@ -7660,23 +7655,17 @@ body.darkmode .ui-tabs .ui-tabs-nav li:hover {
   .txp-layout-cell-row {
     display: block;
   }
-  /**
-   * Non-fixed header on mobile layout (because mobile nav menu couldn't scroll otherwise).
-   */
-  .txp-header {
-    position: absolute;
-  }
   .txp-header h1,
   .txp-view-site {
     margin-top: 0.25em;
   }
   /**
-   * Show the navigation menu toggle button on mobile layout.
-   *
-   * Example HTML:
-   *
-   * <button class="txp-nav-toggle">
-   */
+    * Show the navigation menu toggle button on mobile layout.
+    *
+    * Example HTML:
+    *
+    * <button class="txp-nav-toggle">
+    */
   button.txp-nav-toggle {
     overflow: hidden;
     text-indent: 110%;
@@ -7687,7 +7676,6 @@ body.darkmode .ui-tabs .ui-tabs-nav li:hover {
     height: 2em;
     margin: 0.25em 0.5em 0;
     padding: 0;
-    float: left;
     border: 0;
     background: transparent url("../img/sprite.svg") -10em 0;
     background-size: 13em 2em;
@@ -7695,111 +7683,66 @@ body.darkmode .ui-tabs .ui-tabs-nav li:hover {
   button.txp-nav-toggle:focus {
     outline: thin solid var(--clr-focus);
   }
-  button.txp-nav-toggle:not(.collapsed) {
-    background-color: hsla(0, 0%, 100%, 0.4);
-  }
-  [dir=rtl] button.txp-nav-toggle {
-    float: right;
+  body.darkmode .txp-view-site a,
+  body.darkmode button.txp-nav-toggle {
+    filter: invert(100%);
   }
   /**
-   * Hide the navigation menu by default on mobile layout.
-   */
+    * Hide the navigation menu by default on mobile layout.
+    */
   .txp-nav .data-dropdown {
     display: none;
   }
   /**
-   * Show the navigation menu when toggled on mobile layout.
-   */
+    * Show the navigation menu when toggled on mobile layout.
+    */
   .txp-nav.in .data-dropdown {
-    display: block;
     position: absolute;
     top: 2.75em;
     right: 0;
     left: 0;
-    background: var(--clr-accent-bkgd);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    min-height: calc(100vh - var(--header-height));
+    background: var(--clr-accent-grad-from);
   }
-  .txp-nav.in .data-dropdown::before {
-    content: "";
-    position: absolute;
-    z-index: 2;
-    top: -0.5em;
-    left: 4.375em;
-    width: 1em;
-    height: 0.5em;
-    background: url("../img/sprite.svg") no-repeat -12em 0;
-    background-size: 13em 2em;
-  }
-  [dir=rtl] .txp-nav.in .data-dropdown::before {
-    right: 4.375em;
-    left: auto;
-  }
-  .txp-nav > ul > li {
-    float: none;
-    border: 0;
-    border-bottom: 1px solid hsla(0, 0%, 0%, 0.2);
-  }
-  .txp-nav > ul > li:first-child {
-    border-left: 0;
-  }
-  .txp-nav > ul > li > a,
-  .txp-nav > ul > li > a.dropdown-toggle {
-    padding: 0 1em;
-  }
-  [dir=rtl] .txp-nav > ul > li > a,
-  [dir=rtl] .txp-nav > ul > li > a.dropdown-toggle {
-    padding: 0 1em;
-  }
-  .txp-nav > ul > li a.dropdown-toggle::after {
-    top: 1.25em;
-    right: 1em;
-  }
-  [dir=rtl] .txp-nav > ul > li a.dropdown-toggle::after {
-    right: auto;
-    left: 1em;
-  }
-  /**
-   * Secondary-level navigation menu items (submenus).
-   */
-  .dropdown-menu {
+  .txp-nav.in .data-dropdown .dropdown-menu {
+    display: block;
+    background: inherit;
     position: static;
-    min-width: 0;
-    border: 0;
   }
-  .dropdown-menu a {
+  .txp-nav.in .data-dropdown .dropdown-toggle {
+    border-bottom: 2px solid var(--clr-text);
+  }
+  .txp-nav.in .data-dropdown [role=menuitem] {
     padding: 0.5em 1em;
-    padding-inline-start: 2em;
-    white-space: normal;
-  }
-  .dropdown-menu::before {
-    display: none;
   }
   /**
-   * Collapse 2 column form fields to 1 column (remove flexbox).
-   */
+    * Secondary-level navigation menu items (submenus).
+    */
+  /**
+    * Collapse 2 column form fields to 1 column (remove flexbox).
+    */
   .txp-edit .txp-form-field:not(.txp-form-field-textarea),
   .txp-tabs-vertical-group .txp-form-field:not(.txp-form-field-textarea) {
     display: block;
   }
   /**
-   * Remove forced 'shim' alignments.
-   */
+    * Remove forced 'shim' alignments.
+    */
   .txp-form-field-shim {
     margin-inline-start: 0;
   }
   /**
-   * Adjust centre alignment of twisties.
-   */
-  h3.txp-summary a::after {
-    top: 0.75em;
-  }
-  h3.txp-summary.expanded a::after {
-    top: 0.875em;
-  }
+    * Adjust centre alignment of twisties.
+    */
   /**
-   * Label/value one-column layouts within panes.
-   *
-   * Collapsed from two-column format on desktop layout (remove flexbox).
-   */
+    * Label/value one-column layouts within panes.
+    *
+    * Collapsed from two-column format on desktop layout (remove flexbox).
+    */
   .txp-edit .txp-form-field-label,
   .txp-edit .txp-form-field-value,
   .txp-tabs-vertical-group .txp-form-field-label,
@@ -7808,16 +7751,16 @@ body.darkmode .ui-tabs .ui-tabs-nav li:hover {
     min-height: inherit;
   }
   /**
-   * Remove inline alignment margin values when collapsed.
-   */
+    * Remove inline alignment margin values when collapsed.
+    */
   .txp-form-field-value input,
   .txp-form-field-value select,
   .txp-form-field-value .jquery-ui-controlgroup {
     margin: 0;
   }
   /**
-   * Prevent over-expansion of contents.
-   */
+    * Prevent over-expansion of contents.
+    */
   .inline-file-uploader-actions {
     display: block;
   }
@@ -7825,8 +7768,8 @@ body.darkmode .ui-tabs .ui-tabs-nav li:hover {
     width: 100%;
   }
   /**
-   * Collapse progress meters responsively.
-   */
+    * Collapse progress meters responsively.
+    */
   .progress-meter ol {
     display: block;
     margin-bottom: 1em;
@@ -7841,8 +7784,8 @@ body.darkmode .ui-tabs .ui-tabs-nav li:hover {
     display: none;
   }
   /**
-   * Collapse jQuery UI tabs responsively.
-   */
+    * Collapse jQuery UI tabs responsively.
+    */
   .ui-tabs:not(.ui-tabs-vertical) .ui-tabs-nav {
     height: auto;
     border-bottom: 1px solid var(--clr-brdr-lite);
@@ -7858,14 +7801,14 @@ body.darkmode .ui-tabs .ui-tabs-nav li:hover {
     padding-bottom: 0;
   }
   /**
-   * Remove top border from jQuery UI tabs panel.
-   */
+    * Remove top border from jQuery UI tabs panel.
+    */
   .ui-tabs:not(.ui-tabs-vertical) .ui-tabs-panel {
     border-top-width: 0;
   }
   /**
-   * Remove float from inline the action links.
-   */
+    * Remove float from inline the action links.
+    */
   .txp-actions-inline,
   .txp-edit .txp-actions-inline,
   [dir=rtl] .txp-actions-inline,
@@ -7875,8 +7818,8 @@ body.darkmode .ui-tabs .ui-tabs-nav li:hover {
     float: none;
   }
   /**
-   * Reset font size/weight/colour for elements in write -> main content area.
-   */
+    * Reset font size/weight/colour for elements in write -> main content area.
+    */
   #main_content .text input,
   #main_content .text textarea,
   #main_content .text .title input {
@@ -7885,6 +7828,19 @@ body.darkmode .ui-tabs .ui-tabs-nav li:hover {
   .txp-save-zone {
     padding: 0.25em 1em;
   }
+  table {
+    font-size: 10px;
+  }
+  [data-col=id] a::after {
+    margin-top: 0.25em;
+  }
+  th, td {
+    padding: 0 0.25em;
+  }
+  /**
+     Interesting approach for large mobile tables. Maybe useful for Articles & Images lists?
+    * https://css-tricks.com/responsive-data-tables/
+    */
 }
 /* Page-Article
  ========================================================================== */

@@ -1,1 +1,1 @@
-var $,jQuery;$(document).ready((function(){jQuery("#txp-image-group,#txp-custom-field-group").detach().appendTo("#main_content")}));
+var $,jQuery;$(document).ready((function(){$(window).width()>1439&&jQuery("#txp-image-group,#txp-custom-field-group").detach().appendTo("#main_content")}));
